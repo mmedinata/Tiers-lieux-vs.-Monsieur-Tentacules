@@ -1,7 +1,7 @@
 # Puzzle
 
 Ces fichiers représentent le puzzle utilisé dans le jeu.  
-Ils sont la création de **Florian Festi**.
+Ils sont la création de Florian Festi, diffusé dans son site https://boxes.hackerspace-bamberg.de/ 
 
 ## Licence
 © Copyright 2025, Florian Festi  
