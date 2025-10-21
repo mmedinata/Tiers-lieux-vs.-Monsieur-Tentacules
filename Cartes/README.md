@@ -1,6 +1,7 @@
 # Cartes du jeu
 
 Ces cartes ont été créées par **Marcos Medina-Tabares** dans le cadre d’un projet de recherche au laboratoire **ERPI (Université de Lorraine)**.
+Dans ce dossier vous allez trouver les documents PDF contenant chacune des cartes avec le design verso et recto.
 
 ## Licence
 Les cartes sont distribuées sous la licence :
