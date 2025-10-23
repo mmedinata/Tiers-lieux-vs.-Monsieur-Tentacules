@@ -1,3 +1,4 @@
+/* === BASE === */
 body {
   font-family: "Helvetica Neue", Arial, sans-serif;
   margin: 0;
@@ -7,59 +8,112 @@ body {
   line-height: 1.6;
 }
 
+/* === LOGOS === */
+.logos-container {
+  background: #fff;
+  text-align: center;
+  padding: 0.8em 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.logos {
+  max-width: 90%;
+  height: auto;
+}
+
+/* === HEADER === */
 header {
   background: #003366;
   color: white;
-  padding: 1em;
+  padding: 1.2em 0.8em;
   text-align: center;
 }
 
 header h1 {
   margin: 0.2em 0;
+  font-size: 1.8em;
+}
+
+nav {
+  margin-top: 0.5em;
 }
 
 nav a {
   color: #ffcc00;
   text-decoration: none;
-  margin: 0 0.5em;
+  margin: 0 0.8em;
+  font-weight: bold;
+  transition: color 0.2s ease;
 }
 
 nav a:hover {
+  color: #ffffff;
   text-decoration: underline;
 }
 
+/* === MAIN CONTENT === */
 main {
-  max-width: 800px;
-  margin: auto;
+  max-width: 900px;
+  margin: 2em auto;
   padding: 2em;
   background: white;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 10px;
 }
 
 section {
-  margin-bottom: 2em;
+  margin-bottom: 2.5em;
 }
 
+h3, h4 {
+  color: #003366;
+  margin-bottom: 0.5em;
+}
+
+ul {
+  margin-left: 1.2em;
+}
+
+/* === IMAGE DE SYNTHÈSE === */
+.synthese {
+  display: block;
+  margin: 2em auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+/* === FOOTER === */
 footer {
   text-align: center;
-  padding: 1em;
-  background: #eee;
+  padding: 1.2em;
+  background: #003366;
+  color: white;
   font-size: 0.9em;
 }
 
-/* === Logos des partenaires === */
-.logos-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #fff;
-  padding: 1em;
-  border-bottom: 2px solid #003366;
+footer a {
+  color: #ffcc00;
+  text-decoration: none;
 }
 
-.logos {
-  max-width: 100%;
-  height: auto;
-  object-fit: contain;
-  max-height: 100px;
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* === RESPONSIVE === */
+@media (max-width: 700px) {
+  nav a {
+    display: inline-block;
+    margin: 0.4em;
+  }
+
+  main {
+    padding: 1.5em;
+  }
+
+  .logos {
+    max-width: 100%;
+  }
 }
