@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ressources – Tiers-lieux vs. Monsieur Tentacules</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <div class="logos-container">
+    <img src="logos.png" alt="Logos des partenaires" class="logos" />
+  </div>
+
+  <header>
+    <h1>Ressources et téléchargements</h1>
+    <nav>
+      <a href="index.html">Accueil</a> |
+      <a href="info.html">Info</a> |
+      <a href="credits.html">Crédits</a> |
+      <a href="licenses.html">Licences</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h3>Documents à télécharger</h3>
+      <ul>
+        <li><a href="memoire.pdf" target="_blank">📘 Mémoire complet (PDF)</a></li>
+        <li><a href="jeu_tiers_lieux_vs_monsieur_tentacules.zip" download>🎲 Jeu sérieux – Tiers-lieux vs. Monsieur Tentacules (ZIP)</a></li>
+      </ul>
+      <p>Ces documents sont mis à disposition pour un usage non commercial, dans le cadre du programme de recherche sur le management inclusif des tiers-lieux.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      © 2025 – Marcos Medina-Tabares | Université de Lorraine – ENSGSI  
+      <br>Hébergé sur <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>
+    </p>
+  </footer>
+
+</body>
+</html>
